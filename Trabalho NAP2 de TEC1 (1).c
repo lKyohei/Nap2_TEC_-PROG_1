@@ -354,9 +354,9 @@ void continuar_cacada(){
 //fun��es do mago.
 void mago(){
     int escolha;
-    printf("Ao receber seu cajado, uma pessoa se aproxima e explica um pouco da vida dos magos, dentro do mundo de Orario, onde alguns segue o rumo da pesquisa estudando magias e aperfei�oando suas t�cnicas \n");
-    printf("voc� escolhe ent�o ser um pesquisador da magia, indo at� a biblioteca na parte de runas antigas, voc� v� de relance um livro sobre uma magia chamada sobre magia de corpos celestes.\n");
-    printf("1-	Magia da escurid�o.\n");
+    printf("Ao receber seu cajado, uma pessoa se aproxima e explica um pouco da vida dos magos, dentro do mundo de Orario, onde alguns segue o rumo da pesquisa estudando magias e aperfeiçoando suas técnicas \n");
+    printf("você escolhe então ser um pesquisador da magia, indo até a biblioteca na parte de runas antigas, você vê de relance um livro sobre uma magia chamada sobre magia de corpos celestes.\n");
+    printf("1-	Magia da escuridão.\n");
     printf("2-	Magia armamento.\n");
     scanf("%d",&escolha);
 
@@ -372,21 +372,21 @@ void mago(){
 void caminho_celeste(){
     int destino;
     system("cls");
-    printf("Devido ao fluxo grande de magia no local, algumas magias mais poderosas s�o f�ceis de executar e voc� decide come�ar pela Sema, aquela magia que lhe chamou mais aten��o no livro...sendo assim os selos s�o feitos.\n");
-    printf("curvando e apontando as m�os para baixo, com todos os dedos fechados, exceto o dedo indicador e m�dio. voc� move lentamente a m�o direita at� que ela aponte para cima, fazendo com que as nuvens acima andem em c�rculos, criando o que parece ser um ciclone. A partir do centro da forma��o, uma esfera brilhante come�a a se formar, e voc� observa o que aparenta ser um meteorito gigante vindo acima de voc�, rapidamente no desespero voc� procura direcionar o meteoro para que ele caia numa zona ao qual voc� n�o seja afetado pela colis�o.\n");
-    printf("ap�s alguns segundos, voc� sente o impacto e corre para ver e anotar os resultados ap�s o teste da magia e percebe o tamanho do estrago que fez dizimando boa parte da vegeta��o ao redor das ruinas.\n");
-    printf("Ao retornar para a biblioteca, voc� comenta com os estudiosos e conta sobre sua experi�ncia com a magia mais forte de corpos celestes e a dificuldade em realizar, por�m por ser tratar de uma magia de alto n�vel, s� foi poss�vel ser feita devido ao fluxo gigante que as ruinas proporcionaram para voc�, ent�o voc� decide o que fazer ap�s toda a pesquisa.\n");
-    printf("1-	Refazer o livro com as devidas anota��es e sua experi�ncia com a magia.\n");
-    printf("2-	Usar essa magia para vencer torneios uma vez que ela n�o � de conhecimento do público.\n");
+    printf("Devido ao fluxo grande de magia no local, algumas magias mais poderosas são fáceis de executar e você decide começar pela Sema, aquela magia que lhe chamou mais atenção no livro...sendo assim os selos são feitos.\n");
+    printf("curvando e apontando as mãos para baixo, com todos os dedos fechados, exceto o dedo indicador e médio. você move lentamente a mão direita até que ela aponte para cima, fazendo com que as nuvens acima andem em círculos, criando o que parece ser um ciclone. A partir do centro da formação, uma esfera brilhante começa a se formar, e você observa o que aparenta ser um meteorito gigante vindo acima de você, rapidamente no desespero você procura direcionar o meteoro para que ele caia numa zona ao qual você não seja afetado pela colisão.\n");
+    printf("após alguns segundos, você sente o impacto e corre para ver e anotar os resultados após o teste da magia e percebe o tamanho do estrago que fez dizimando boa parte da vegetação ao redor das ruinas.\n");
+    printf("Ao retornar para a biblioteca, você comenta com os estudiosos e conta sobre sua experiência com a magia mais forte de corpos celestes e a dificuldade em realizar, porém por ser tratar de uma magia de alto nível, só foi possível ser feita devido ao fluxo gigante que as ruinas proporcionaram para você, então você decide o que fazer após toda a pesquisa.\n");
+    printf("1-	Refazer o livro com as devidas anotações e sua experiência com a magia.\n");
+    printf("2-	Usar essa magia para vencer torneios uma vez que ela não é de conhecimento do público.\n");
     scanf("%d",&destino);
 
     if (destino == 1){
-        printf("voc� reescreve o livro com todas as anota��es e faz a publica��o para que as pessoas estejam cientes do n�vel de perigo ao executar certas magias e o qu�o forte elas podem ser se n�o forem usadas com cuidado.\n");
+        printf("você reescreve o livro com todas as anotações e faz a publicação para que as pessoas estejam cientes do nível de perigo ao executar certas magias e o quão forte elas podem ser se não forem usadas com cuidado.\n");
         printf("\n");
         printf("**FIM**");
     }
     else if(destino == 2){
-        printf("voc� adentra um torneio de combate e come�a a vencer um ap�s o outro usando as magias de grand chariot, Altairis...conseguindo dinheiro e fama nas arenas das cidades de Orario como um dos melhores magos de corpos celestes que existe.\n");
+        printf("você adentra um torneio de combate e começa a vencer um após o outro usando as magias de grand chariot, Altairis...conseguindo dinheiro e fama nas arenas das cidades de Orario como um dos melhores magos de corpos celestes que existe.\n");
         printf("\n");
         printf("**FIM**");
     }
@@ -395,9 +395,9 @@ void caminho_celeste(){
 //trilha escuridao
 void magia_escuridao(){
     int magia;
-    printf("S�o poucos os conhecimentos das magias negras, sendo elas comumente utilizadas para controle de objetos, bloquear ataques e algumas vezes podendo ser ofensivas...no entanto voc� descobre algumas ruinas abandonadas onde o fluxo de magia e grande e decidir ir para testar algumas magias aos quais voc� tem lido nesses últimos dias.\n");
+    printf("São poucos os conhecimentos das magias negras, sendo elas comumente utilizadas para controle de objetos, bloquear ataques e algumas vezes podendo ser ofensivas...no entanto você descobre algumas ruinas abandonadas onde o fluxo de magia e grande e decidir ir para testar algumas magias aos quais você tem lido nesses últimos dias.\n");
     printf("testar quais magias?\n");
-    printf("1-Magia da escurid�o\n");
+    printf("1-Magia da escuridão\n");
     printf("2-magia dos corpos celestes.\n");
     scanf("%d",&magia);
 
@@ -412,9 +412,9 @@ void magia_escuridao(){
 
 void caminho_escuridao(){
 int destino_escuridao;
-    printf("Ao chegar nas ruinas voc� come�a a folhear o livro sobre magia da escurid�o e se depara com um selo estranho e devido a sua experi�ncia com alguns tipos de selo, decide tentar desfazer o mesmo...ap�s algumas tentativas voc� consegue e uma escrita antiga aparece.\n");
+    printf("Ao chegar nas ruinas você começa a folhear o livro sobre magia da escuridão e se depara com um selo estranho e devido a sua experiência com alguns tipos de selo, decide tentar desfazer o mesmo...após algumas tentativas você consegue e uma escrita antiga aparece.\n");
     printf("1-	Ler a escrita\n");
-    printf("2-	N�o ler vai que � uma maldi��o n�...\n");
+    printf("2-	Não ler vai que é uma maldição né...\n");
     scanf("%d",&destino_escuridao);
 
     if (destino_escuridao == 1){
@@ -427,16 +427,16 @@ int destino_escuridao;
 }
 
 void nao_ler_escuridao(){
-    printf("voc� decide n�o ler e somente praticar magias b�sicas como controle de sombras e algumas defensivas para que voc� aprimore suas habilidades e possa auxiliar os aventureiros em outras aventuras e masmorras.\n");
+    printf("você decide não ler e somente praticar magias básicas como controle de sombras e algumas defensivas para que você aprimore suas habilidades e possa auxiliar os aventureiros em outras aventuras e masmorras.\n");
     printf("\n");
     printf("**FIM**");
 }
 
 void ler_escuridao(){
-    printf("ao ler voc� sente uma enorme press�o e uma pessoa aparece diante de voc� e fala que voc� libertou uma magia a muito tempo selada e que como castigo voc� receberia uma maldi��o chamada anksheram e com isso a pessoa misteriosa desaparece e voc� n�o sente nada de diferente.\n");
-    printf("ao ir embora voc� come�a a nota que no caminho de volta para casa a vegeta��o ao seu lado e os animais come�am a cair mortos ao seu redor e preocupado com o que a pessoa misteriosa disse, voc� abre o livro rapidamente e procura pela palavra mencionada.\n");
-    printf("encontrando quase no final sobre e ela explica que anksheram e uma maldi��o ao qual toda vida ao redor daquele que est� amaldi�oado e subtra�da e n�o existe uma forma de quebra a maldi��o e s� resta o usu�rio conviver eternamente com aquilo.\n");
-    printf("Com isso ele obrigado a isolar num lugar longe de toda civiliza��o para que n�o afete as pessoas e viver eternamente num exilio por conta da sua curiosidade em rela��o a magia negra.\n");
+    printf("ao ler você sente uma enorme pressão e uma pessoa aparece diante de você e fala que você libertou uma magia a muito tempo selada e que como castigo você receberia uma maldição chamada anksheram e com isso a pessoa misteriosa desaparece e você não sente nada de diferente.\n");
+    printf("ao ir embora você começa a nota que no caminho de volta para casa a vegetação ao seu lado e os animais começam a cair mortos ao seu redor e preocupado com o que a pessoa misteriosa disse, você abre o livro rapidamente e procura pela palavra mencionada.\n");
+    printf("encontrando quase no final sobre e ela explica que anksheram e uma maldição ao qual toda vida ao redor daquele que está amaldiçoado e subtra�da e não existe uma forma de quebra a maldição e só resta o usuário conviver eternamente com aquilo.\n");
+    printf("Com isso ele obrigado a isolar num lugar longe de toda civilização para que não afete as pessoas e viver eternamente num exilio por conta da sua curiosidade em relação a magia negra.\n");
     printf("\n");
     printf("**FIM**");
 }
@@ -445,8 +445,8 @@ void ler_escuridao(){
 
 void magia_armamento(){
     int magia;
-    printf("voc� descobre uma magia ao reparar em um dos livros a muito tempo esquecida, capaz de equipar e desequipar armaduras e armas adapt�veis aos mais diversos elementos e situa��es vivenciadas nos tempos da guerra entre ra�as que aconteceram nos prim�rdios do mundo.\n");
-    printf("fica mais interessado ao passar do tempo e pensando nas possibilidades caso consiga executar e dominar com perfei��o essa magia antiga sendo poss�vel vencer guerras e torneios com facilidade. Tendo isso em mente voc� decide ir testar nas ruinas onde o fluxo de magia e grande e tentar dominar essa magia.\n");
+    printf("você descobre uma magia ao reparar em um dos livros a muito tempo esquecida, capaz de equipar e desequipar armaduras e armas adaptáveis aos mais diversos elementos e situações vivenciadas nos tempos da guerra entre raças que aconteceram nos primórdios do mundo.\n");
+    printf("fica mais interessado ao passar do tempo e pensando nas possibilidades caso consiga executar e dominar com perfeição essa magia antiga sendo possível vencer guerras e torneios com facilidade. Tendo isso em mente você decide ir testar nas ruinas onde o fluxo de magia e grande e tentar dominar essa magia.\n");
     printf("testar quais magias?\n");
     printf("1-Magia de armamento\n");
     printf("2-magia dos corpos celestes.\n");
@@ -463,8 +463,8 @@ void magia_armamento(){
 
 void caminho_armamento(){
     int caminho;
-    printf("Ap�s chegar nas ruinas voc� logo nota uns detalhes sobre a magia de reequipar e que ela precisa de uma concentra��o e um longo tempo para que seja aprimorada, e voc� n�o tem tanto de ambas as coisas.\n");
-    printf("1-	Desistir e ir embora...sabendo s� magia de bola de fogo mesmo\n");
+    printf("Após chegar nas ruinas você logo nota uns detalhes sobre a magia de reequipar e que ela precisa de uma concentração e um longo tempo para que seja aprimorada, e você não tem tanto de ambas as coisas.\n");
+    printf("1-	Desistir e ir embora...sabendo só magia de bola de fogo mesmo\n");
     printf("2-	Tentar pelo menos fazer surgir uma arma.\n");
     scanf("%d",&caminho);
 
@@ -478,13 +478,13 @@ void caminho_armamento(){
 }
 //desistir da magia
 void desistir_arma(){
-    printf("voc� vai embora e volta para sua casa, vivendo uma vida simples e tranquila pelo resto dos seus dias.\n");
+    printf("você vai embora e volta para sua casa, vivendo uma vida simples e tranquila pelo resto dos seus dias.\n");
 }
 //continuar na trilha do armamento
 void persistir_arma(){
     int escolha;
-    printf("No livro e dito que voc� precisa mentalizar a arma e se concentrar bastante e logo em seguida gritar Requip para que assim apare�a a arma desejada ou armadura.\n");
-    printf("voc� tenta pela primeira vez, por�m nada surge.\n");
+    printf("No livro e dito que você precisa mentalizar a arma e se concentrar bastante e logo em seguida gritar Requip para que assim apareça a arma desejada ou armadura.\n");
+    printf("você tenta pela primeira vez, porém nada surge.\n");
     printf("1-	Tentar denovo\n");
     printf("2-	Desistir.\n");
     scanf("%d",&escolha);
@@ -500,11 +500,11 @@ void persistir_arma(){
 
 void caminho_armamento2(){
     int opcao;
-    printf("voc� tenta novamente, por�m dessa vez mentaliza apenas uma faca simples e com a ajuda de alguns selos de magia, sua primeira arma surge nas suas m�os.\n");
-    printf("feliz com o sucesso, voc� vem todos os dias treinar a magia e ap�s uns 4 meses aproximadamente...voc� invoca sua primeira armadura, nada muito complexo, por�m nota-se que � uma das armaduras catalogadas no livro.\n");
-    printf("rapidamente voc� l� e percebe que ela e �tima para combates contra inimigos de fogo e raio devido a sua resist�ncia a esses elementos...ent�o com o passar do tempo voc� foi dominando ainda mais a magia e tendo controle tanto pelo tempo de usa das armaduras como tamb�m qual armadura surgir de acordo com a necessidade. ent�o voc� precisa testar.\n");
+    printf("você tenta novamente, porém dessa vez mentaliza apenas uma faca simples e com a ajuda de alguns selos de magia, sua primeira arma surge nas suas mãos.\n");
+    printf("feliz com o sucesso, você vem todos os dias treinar a magia e após uns 4 meses aproximadamente...você invoca sua primeira armadura, nada muito complexo, porém nota-se que é uma das armaduras catalogadas no livro.\n");
+    printf("rapidamente você lê e percebe que ela e ótima para combates contra inimigos de fogo e raio devido a sua resistência a esses elementos...então com o passar do tempo você foi dominando ainda mais a magia e tendo controle tanto pelo tempo de usa das armaduras como também qual armadura surgir de acordo com a necessidade. então você precisa testar.\n");
     printf("1-	Entrar num torneio.\n");
-    printf("2-	Ca�ar monstros.\n");
+    printf("2-	Caçar monstros.\n");
     scanf("%d",&opcao);
 
     if (opcao == 1){
@@ -517,12 +517,12 @@ void caminho_armamento2(){
 }
 //ca�ar monstro com a magia nova
 void cacar_monstros2(){
-    printf("voc� sai em ca�adas junto de outras pessoas, para que suas habilidades sejam testadas e ver o quanto as armaduras resistem aos danos elementais causados pelos mais diversos monstros, complementando assim o livro que uma vez serviu para que voc� dominasse essa magia antiga e t�o poderosa em situa��es de combate.\n");
+    printf("você sai em caçadas junto de outras pessoas, para que suas habilidades sejam testadas e ver o quanto as armaduras resistem aos danos elementais causados pelos mais diversos monstros, complementando assim o livro que uma vez serviu para que você dominasse essa magia antiga e tão poderosa em situações de combate.\n");
 }
 //torneio com magia de armamento
 void torneio(){
     int opcao;
-    printf("voc� se inscreve num torneio de lutas para testar seu controle sobre a magia e a for�a do seu novo poder. ent�o na primeira luta voc� derrota rapidamente seu oponente usando uma armadura leve que d� a voc� agilidade e for�a.\n");
+    printf("você se inscreve num torneio de lutas para testar seu controle sobre a magia e a força do seu novo poder. então na primeira luta você derrota rapidamente seu oponente usando uma armadura leve que dá a você agilidade e força.\n");
     printf("1-	Continuar o torneio\n");
     printf("2-	Parar e ir embora.\n");
     scanf("%d",&opcao);
@@ -536,15 +536,15 @@ void torneio(){
 }
 
 void desistir_torneio(){
-    printf("voc� sai da arena e decide que seu poder n�o deve ser usado para esses tipos de situa��es e decide focar em domin�-lo e usar apenas quando realmente for necess�rio.\n");
+    printf("você sai da arena e decide que seu poder não deve ser usado para esses tipos de situações e decide focar em dominá-lo e usar apenas quando realmente for necessário.\n");
     printf("\n");
     printf("**FIM**");
 
 }
 
 void continuar_torneio(){
-    printf("ent�o voc� continua o torneio derrotando oponente por oponente e a plateia come�a a ficar intrigada com o tipo de magia que nunca foi visto antes e com seu dom�nio em equipar e reequipar as armaduras.\n");
-    printf("Ap�s vencer o torneio, voc� pega o gosto pelas lutas e decide viver nas arenas do mundo de orario sempre procurando testar mais e mais sua magia e ver at� onde esse novo poder pode alcan�ar.\n");
+    printf("então você continua o torneio derrotando oponente por oponente e a plateia começa a ficar intrigada com o tipo de magia que nunca foi visto antes e com seu domínio em equipar e reequipar as armaduras.\n");
+    printf("Após vencer o torneio, você pega o gosto pelas lutas e decide viver nas arenas do mundo de orario sempre procurando testar mais e mais sua magia e ver até onde esse novo poder pode alcançar.\n");
     printf("\n");
     printf("**FIM**");
 }
